@@ -18,7 +18,7 @@ Description=Node Exporter
 Wants=network-online.target
 After=network-online.target
 
-[Sevice]
+[Service]
 User=node_exporter
 Group=node_exporter
 Type=simple
