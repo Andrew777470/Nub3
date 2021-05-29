@@ -3,7 +3,8 @@
 wget http://wordpress.org/latest.tar.gz  ;
 sudo tar xzvf latest.tar.gz;
 sudo yum install rsync -y;
-sudo rsync -avP /home/adminroot/wordpress/ /var/www/wordpress;
+sudo rsync -avP /home/adminroot/Nub3/wordpress
+cp -R  /home/adminroot/Nub3/wordpress /var/www/wordpress;
 sudo touch /var/www/wordpress/wp-config.php
 sudo cp /var/www/wordpress/wp-config-sample.php /var/www/wordpress/wp-config.php;
 sudo chmod 755 /var/www;
